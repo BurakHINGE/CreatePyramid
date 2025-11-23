@@ -74,15 +74,6 @@ Bu depo, kullanıcıdan alınan yükseklik değerine göre konsolda ortalanmış
 
 ---
 
-### 🚀 Nasıl Çalıştırılır
-
-```bash
-javac Pyramid.java
-java Pyramid
-```
-
----
-
 ## Sürüm Geçmişi | Version History
 
 | Version / Sürüm | Date / Tarih | Description / Açıklama                  |
