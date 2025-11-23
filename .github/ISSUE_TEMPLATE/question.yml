@@ -1,0 +1,13 @@
+name: "Question | Soru"
+description: "Ask a question / Bir soru sorun"
+title: "[QUESTION]: "
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: "Your Question / Sorunuz"
+      description: "Write your question here / Sorunuzu buraya yazın"
+      placeholder: "How can I center the pyramid? / Piramidi nasıl ortalayabilirim?"
+    validations:
+      required: true
