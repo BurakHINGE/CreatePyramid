@@ -78,6 +78,7 @@ Bu depo, kullanıcıdan alınan yükseklik değerine göre konsolda ortalanmış
 
 | Version / Sürüm | Date / Tarih | Description / Açıklama                  |
 | --------------- | ------------ | --------------------------------------- |
+| v2.0.0          | 2025-12-17   | Reversed pyramid code has been created / Ters piramit kodu oluşturuldu |
 | v1.0.0          | 2025-11-24   | Initial release / İlk sürüm oluşturuldu |
 
 ---
