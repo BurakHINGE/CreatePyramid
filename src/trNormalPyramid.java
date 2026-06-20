@@ -5,6 +5,9 @@ public class trNormalPyramid {
 
         Scanner input = new Scanner(System.in);
 
+        System.out.println("Piramit hangi karakterle oluşturulsun: ");
+        char choice = input.next().charAt(0);
+
         System.out.println("Piramit büyüklüğünü giriniz: ");
         int height = input.nextInt();
 
@@ -14,7 +17,7 @@ public class trNormalPyramid {
             }
 
             for (int k = 0; k < 2*i+1; k++) {
-                System.out.print("*");
+                System.out.print(choice);
             }
             System.out.println();
         }

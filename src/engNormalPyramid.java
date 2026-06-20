@@ -5,6 +5,9 @@ public class engNormalPyramid {
 
         Scanner input = new Scanner(System.in);
 
+        System.out.println("Which character do you want to create your pyramid: ");
+        char choice = input.next().charAt(0);
+
         System.out.println("Enter the height of the pyramid: ");
         int height = input.nextInt();
 
@@ -14,7 +17,7 @@ public class engNormalPyramid {
             }
 
             for (int k = 0; k < 2 * i + 1; k++) {
-                System.out.print("*");
+                System.out.print(choice);
             }
             System.out.println();
         }
